@@ -1,0 +1,113 @@
+.side-nav-mobile{
+    display: none;
+}
+.side-nav{
+    background-color: #EAEAEA;
+    min-height: 45rem;
+}
+.side-nav-list{
+    list-style: none;
+    padding: 0 0;
+}
+.side-nav-item{
+    padding: 1rem 0;
+    font-size: 1rem;
+    border-bottom: #D5D5D5 .1em solid;
+    text-align: left;
+    color: #959595;
+    font-weight: 600;
+}
+.side-nav-item:hover{
+    cursor: pointer;
+}
+.side-nav-item.active{
+    color: #BF2957;
+    border-color: #BF2957;
+}
+.product-card{
+    border: none;
+    width: 14rem;
+    border-bottom: #DADADA dotted;
+    display: inline-block;
+    margin-top: .5rem;
+    margin-right: .8rem;
+    box-shadow: .2rem 0 0 0 #F8F8F8;
+    text-align: center;
+    height: fit-content;
+}
+.prod-card-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.prod-des{
+    background-color: #F0F0F0;
+    padding: .5rem;
+    margin-top: .5rem;
+    height: 10rem;
+    overflow-y:auto
+}
+.prod-des::-webkit-scrollbar{
+    width: .2rem;
+}
+.buy-btn{
+    background-color: #BF2957;
+    border-radius: 0;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.4rem 1rem;
+}
+.mobile-buy-btn{
+    display: none;
+}
+/* Tablet max width 992 */
+@media screen and (max-width:992px) {
+    .product-card{
+        width: 45%;
+    }
+    .card-container{
+        text-align: center;
+    }
+    .mobile-buy-btn{
+        display: block;
+    }
+    .mrp-text, .desktop-buy-btn{
+        display: none;
+    }
+    .buy-btn{
+        width: 100%;
+    }
+}
+@media screen and (max-width:576px) {
+    .side-nav{
+        display: none;
+    }
+    .side-nav-item.active{
+        background-color: #FFFFFF;
+    } 
+    .side-nav-mobile{
+        display: block;
+    }
+    .product-card{
+        width: 100%;
+    }
+    .m-nav-dropdown-btn{
+        background-color: #BF2957;
+        margin: 1rem 0;
+        padding: 1rem;
+        font-size: 1.5rem;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+    }
+    .m-side-nav-list{
+        width: 95% !important;
+        padding: 0;
+    }
+    .buy-btn{
+        width: 50%;
+    }
+    .buy-section{
+        justify-content: end !important;
+        padding: 0;
+    }
+}
