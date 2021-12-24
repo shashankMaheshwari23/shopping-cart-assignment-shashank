@@ -21,7 +21,7 @@ html, body{
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #D5D5D5; 
+  background: #848484; 
 }
 
 /* Handle on hover */
@@ -79,7 +79,7 @@ html, body{
   text-decoration: none;
   color: #464A4D;
 }
-@media screen and (max-width:960px) {
+@media screen and (max-width:992px) {
   html, body{
     font-size: 12px !important;
   }

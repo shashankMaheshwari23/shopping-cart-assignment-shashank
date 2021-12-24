@@ -77,7 +77,7 @@ const MyCart = () => {
                                     )
                                 })}
                                 <div className="lowest-price-section">
-                                    <img src="/static/images/lowest-price.png" className="lowest-price-img" />
+                                    <img src="/static/images/lowest-price.png" className="lowest-price-img" alt="lowest price" />
                                     <span className="lowest-price-text">You won't find it cheaper anywhere</span>
                                 </div>
                             </div>

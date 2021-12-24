@@ -16,7 +16,7 @@ const Header = () => {
         <header className="container-fluid header">
             <div className="row">
                 <div className="col-4 col-sm-3 col-lg-3">
-                    <img className="app-logo img-fluid" src="/static/images/logo.png"></img>
+                    <img className="app-logo img-fluid" src="/static/images/logo.png" alt="Sabka Bazar Logo"></img>
                 </div>
                 <div className="col-sm-3 col-lg-3 left-nav d-flex align-items-end">
                     <nav>
