@@ -1,0 +1,26 @@
+.form-login{
+    padding-right: 10%;
+    margin-top: 1rem;
+}
+.field-label{
+    margin-bottom: .5rem;
+    color: #B9B9B9;
+}
+.field-input{
+    border: #B9B9B9 solid;
+    border-width: 0 0 .1rem 0;
+}
+.field-input:focus, .field-input:visited{
+    border: #3ABDC7 solid;
+    border-width: 0 0 .1rem 0;
+    outline: none;
+    box-shadow: none;
+}
+.login-btn{
+    width: 100%;
+    border: none;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    color: #FFFFFF;
+    background-color: #D10157;
+}

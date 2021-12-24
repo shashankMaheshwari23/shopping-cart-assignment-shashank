@@ -1,0 +1,122 @@
+.ReactModal__Html--open,
+.ReactModal__Body--open {
+  overflow: hidden; /* prevents background page from scrolling when the modal is open */
+}
+.my-cart-modal{
+    width: 40%;
+    position: absolute;
+    top: 10%;
+    left:30%;
+    background-color: #EEEEEE;
+    outline: none;
+}
+.my-cart-modal-overlay{
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(76, 76, 76, .5);
+    z-index: 10;
+    overflow: scroll;
+}
+.mycart-modal-header{
+    height: 3rem;
+    background-color: #1D2124;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    padding: 0 .5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    justify-content: space-between;
+}
+@media screen and (max-width:992px) {
+    .my-cart-modal{
+        width: 100%;
+        left: 0;
+        top:25%;
+        background-color: #EEEEEE;
+    }
+}
+.no-item-cart-body{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    min-height: 30rem;
+}
+.cart-item-body{
+    min-height: 25rem;
+}
+.start-shoping-btn-section{
+    background-color: #BF2957;
+    position: absolute;
+    bottom: 0.5rem;
+    left: 0.5rem;
+    right: 0.5rem;
+    display: flex;
+    justify-content: center;
+    padding: .5rem 0;
+    font-size: 1rem;
+    border-radius: .2rem;
+}
+.cart-item-section{
+    background-color: #FFFFFF;
+    height: 5rem;
+    padding: .5rem 1rem;
+    display: flex;
+    margin-top: .5rem;
+    justify-content: space-between;
+}
+.cart-item-image{
+    width: 4rem;
+}
+.cart-item-details{
+    margin-left: .5rem;
+}
+.cart-itme-count{
+    display: flex;
+    gap: .8rem;
+}
+.cart-item-cost{
+    color: #1E1E1E;
+    margin-left: 1rem;
+    gap: .8rem;
+    display: flex;
+}
+.cart-item-total-price{
+    align-self: end;
+    color: #1E1E1E;
+}
+.lowest-price-section{
+    background-color: #FFFFFF;
+    margin: 1rem;
+    padding: .5rem 2rem;
+    border-radius: .5rem;
+}
+.lowest-price-img{
+    width: 8rem;
+}
+.lowest-price-text{
+    font-size: 87.5%;
+    margin-left: .5rem;
+}
+.checkout-section{
+    background-color: #FFFFFF;
+    padding: 1rem 0;
+    text-align: center;
+}
+.checkout-btn{
+    background-color: #BF2957;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3rem 1rem 2rem;
+    margin: 1rem;
+    border-radius: .2rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+.right-arrow{
+    margin-left: 0.5rem
+}

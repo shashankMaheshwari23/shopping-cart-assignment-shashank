@@ -1,0 +1,38 @@
+.carousel-section{
+    margin-top: .5rem;
+}
+.cat-card{
+    border-bottom: #DEDEDE solid;
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+}
+.cat-card:nth-child(even){
+    flex-direction: row-reverse;
+}
+.cat-card:first-child{
+    margin-top: 2rem;
+}
+.cat-image{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.cat-details{
+    text-align: center;
+    padding: 2em 0;
+}
+.cat-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cat-des{
+    color: #505050;
+    display: inline-block;
+}
+.cat-btn{
+    background-color: #BF2957;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.4rem 1rem;
+}

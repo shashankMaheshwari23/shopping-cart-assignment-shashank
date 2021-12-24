@@ -1,0 +1,38 @@
+.header{
+    border: #ECECEC solid;
+    border-width: .1em 0;
+    padding: 0vh 10vw;
+    box-shadow: 0 0 .5em 0 #ECECEC;
+}
+.app-logo{
+    padding: 2vh 0;
+}
+.left-nav a{
+    margin: 0 2vw;
+    font-size: 1rem;
+    color: #848484;
+    text-decoration: none;
+    font-weight: 600;
+}
+.left-nav .active{
+    border-bottom: #D10157 solid;;
+}
+.right-nav-header a{
+    margin-left: .5rem;
+}
+.cart{
+    background-color: #EEEEEE;
+    width: 8em;
+    font-size: 87.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    flex-direction: row;
+    flex-grow: 1;
+}
+@media screen and (max-width:576px) {
+    .left-nav{
+        display: none !important;
+    }
+}
